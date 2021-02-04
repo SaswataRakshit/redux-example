@@ -17,7 +17,6 @@ const calculator = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state)
     return state
 }
 

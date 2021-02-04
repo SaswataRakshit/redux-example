@@ -12,6 +12,7 @@ import SongList from './Component/Song/SongList'
 import SongSelect from './Component/Song/SongSelect'
 import Calculator from './Component/Calculation/Calculator'
 import Result from './Component/Calculation/Result'
+import Posts from './Component/Posts/Posts'
 
 function App() {
   return (
@@ -24,8 +25,11 @@ function App() {
           </div>
         </Route>
         <Route exact path="/calculator">
-            <Result />
-            <Calculator />
+          <Result />
+          <Calculator />
+        </Route>
+        <Route exact path="/posts">
+          <Posts />
         </Route>
       </Switch>
     </Router>
