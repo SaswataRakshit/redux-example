@@ -5,7 +5,6 @@ import { selectSong } from '../../Actions'
 class songList extends Component {
 
     render() {
-        console.log(this.props)
         return (
             <div style={{ margin: '50px' }}>
                 <h3>Song List</h3>
